@@ -22,7 +22,7 @@ struct ContentView: View {
                 Text("Fresh coffee, made with love.")
                     .foregroundColor(.gray)
                 
-                NavigationLink("View Menu") {
+                NavigationLink("View Menu here") {
                     MenuView()
                 }
                 .buttonStyle(.borderedProminent)
